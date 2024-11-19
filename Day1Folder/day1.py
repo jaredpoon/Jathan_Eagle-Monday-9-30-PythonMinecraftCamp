@@ -7,11 +7,11 @@
 # print("I am Jared :)")
 # print("I am 10 years old.")
 # print("I attend Kuo Chuan Presbyterian School.")
-# print("If I had $2000, I would buy is the Oris Divers Sixty-Five 40mm Watch.")
+# print("If I had $2000, I would buy the Oris Divers Sixty-Five 40mm Watch.")
 
 # firstName = "Jared"
 # lastName = "Poon"
-# numberOfAppleInTheBasket = "IDK"
+# numberOfAppleInTheBasket = "40000"
 # print(firstName + " " + lastName)
 # print(numberOfAppleInTheBasket)
 
@@ -50,30 +50,32 @@
 
 # FirstName1 = "Jared"
 # LastName1 = "Poon"
+# NickName1 = "Jathan Eagle"
 # print("My name is " + FirstName1)
 # print("My last name is " + LastName1)
 # print("My full name is " + FirstName1 + " " + LastName1)
-# print("My friends call me " + FirstName1)
+# print("My friends call me " + NickName)
 
 # FirstName2 = "Jared"
 # LastName2 = "Poon"
+# NickName2 = "Jathan Eagle"
 # def introduceMyself():
 #     print("My name is " + FirstName2)
 #     print("My last name is " + LastName2)
 #     print("My full name is " + FirstName2 + " " + LastName2)
-#     print("My friends call me " + FirstName2)
+#     print("My friends call me " + NickName2)
 # introduceMyself()
 
 
-# def introduceMyself(FirstName3, LastName3):
+# def introduceMyself(FirstName3, LastName3, NickName3):
 #     print("My name is " + FirstName3)
 #     print("My last name is " + LastName3)
 #     print("My full name is " + FirstName3 + " " + LastName3)
-#     print("My friends call me " + FirstName3)
-# introduceMyself("Jared", "Poon")
-# introduceMyself("Jathan", "Eagle")
-# introduceMyself("Alfred", "Chan")
-# introduceMyself("Thomas", "Lim")
+#     print("My friends call me " + NickName3)
+# introduceMyself("Jared", "Poon", "Jathan Eagle")
+# introduceMyself("Jathan", "Eagle", "John Tan")
+# introduceMyself("Alfred", "Chan", "Bob Lim")
+# introduceMyself("Thomas", "Lim", "Mr DoNothing")
 
 
 # def addition1(num01, num02):
