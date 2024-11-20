@@ -29,20 +29,26 @@
 
 
 import time
-name = "ADAM"
-for i in name:
+name1 = "ADAM"
+for i in name1:
     time.sleep(1)
     print("Give me a " + i + "!")
 time.sleep(1)
 print("WHO'S THE BEST?")
 time.sleep(1)
 print("IT'S")
-name1 = "ADA"
-for i in name1:
+name2 = "ADA"
+for i in name2:
     time.sleep(1)
     print(i + "!")
-print("MMMM")
-print("ADAM!")
+for i in range(4):
+    time.sleep(1)
+    print("M!")
+for i in range(3):
+    time.sleep(1)
+    print("ADAM!")
+time.sleep(1)
+print("ADAM!!!!")
 
 
 # for count in range(1, 11):
