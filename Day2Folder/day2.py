@@ -28,7 +28,7 @@
 # print(name + "!")
 
 
-# # I did this myself using Google Search
+# # I did this myself using Google Search.
 # import time
 # name1 = "ADAM"
 # for i in name1:

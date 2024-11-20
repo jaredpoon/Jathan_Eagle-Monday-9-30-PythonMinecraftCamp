@@ -22,8 +22,7 @@
 # num1 = input("What is the first number to add? ")
 # num2 = input("What is the second number to add? ")
 # ans = int(num1) + int(num2)
-# for i in ans():
-#     print("The sum of " + num1 + " and " + num2 + " = " + str(ans))
+# print("The sum of " + str(num1) + " and " + str(num2) + " = " + str(ans))
 
 
 # name2 = input("What is your name? ")
@@ -82,24 +81,43 @@
 
 
 # person1age = input("What is your age? ")
-# person2age = input("What is youur age? ")
+# person2age = input("What is your age? ")
 # if person1age > person2age:
-#     print("Person 1,lease take care of Person 2.")
+#     print("Person 1, please take care of Person 2.")
 # elif person1age == person2age:
 #     print("Take care of each other and hold hands.")
 # else:
 #     print("Person 2, please take care of Person 1.")
 
+
 # import random
 # print(random.randint(1, 100))
 
 
-import random
-randomNum = random.randint(1, 5)
-userGuess = int(input("Guess a number between 1 and 5: "))
-if userGuess == randomNum:
-    print("You are correct!!!! You won!!!!")
-elif userGuess > randomNum:
-    print("You number is too large, try again!")
-elif userGuess < randomNum:
-    print("Your number is too small, try again!")
+# import random
+# randomNum = random.randint(1, 5)
+# userGuess = int(input("Guess a number between 1 and 5: "))
+# if userGuess == randomNum:
+#     print("You are correct!!!! You won!!!!")
+# elif userGuess > randomNum:
+#     print("You number is too large, try again!")
+# elif userGuess < randomNum:
+#     print("Your number is too small, try again!")
+
+
+# # Modified by ChatGPT.
+# import random
+# randomNum = random.randint(1, 100)
+# attempts = 0
+# print("Welcome to the number guessing game!")
+# print("I have selected a number between 1 and 100. Try to guess it!")
+# while True:
+#     userGuess = int(input("Guess a number between 1 and 100: "))
+#     attempts += 1
+#     if userGuess == randomNum:
+#         print(f"You are correct!!!! You won!!!! It took you {attempts} attempts.")
+#         break
+#     elif userGuess > randomNum:
+#         print("Your number is too large, try again!")
+#     elif userGuess < randomNum:
+#         print("Your number is too small, try again!")
